@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+   <html>
+     <head>
+	   <title>
+	     Doctors Next To You
+	   </title>
+	   	    <link rel="icon" type="image/.png" href="images/icon.png"> 
+	 <link type="text/css" rel="stylesheet" href="symtom.css">
+	 </head>
+	 <header id="head">
+	   <a href="index.html" class="#"><img src="images/icon.png" class="icon"></a>
+	<h1 id="name">Doctors Nxt 2 You</h1>
+	<div id="search">
+	 <input type="text"  placeholder="search..." class="search-box" />
+  
+    </div>
+	</header>
+
+     <nav id="navigator">
+	 
+	 
+	 
+	 
+	 
+	 
+     
+	<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+ <div class="overlay-content">
+    <a href="#">Consult</a>
+    <a href="#">Book Appointment</a>
+    <a href="#">Rate Doctor</a>
+    <a href="https://www.netmeds.com">Buy Medicines</a>
+	<a href="#">Services</a>
+	<a href="#">About</a>
+  </div>
+
+</div>
+ <ul id="deff">
+	    <a href="" class="link"><li class="log2">Contact</li></a>
+		 <a href="" class="link"><li class="log2">Category</li></a>
+		  <a href="" class="link"><li class="log2">Query</li></a>
+		   <a href="" class="link"><li class="log2">About</li></a>
+		    <a href="index.html" class="link"><li class="log2">Home</li></a>
+	 </ul>	
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">
+    <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>                        
+</span>	
+    
+      	 
+		  
+    </nav>
+<script>
+/* Open when someone clicks on the span element */
+
+function openNav() {
+    document.getElementById("myNav").style.width = "30%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+ 
+   
+ <style>
+.container {
+    display: inline-block;
+    cursor: pointer;
+	
+
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/
+</style>
+  <script>
+   function myFunction(x) {
+    x.classList.toggle("change");
+}
+  </script>	
+ <body>
+ 
+	  
+	 <div id="secondry">
+	  <h1 class="doctor">Doctors Nxt 2 You</h1>
+	  <p class="copyright">&copy; 2016 AbhisheK PrakasH & Hitesh</p>
+	   <ul class="section1">
+	      <a href="" class="footermenu"><li class="subheader"><h2 class="head1">Your Account</h2></li></a>
+		 <a href="" class="footermenu"><li class="subheader">Manage your Profile (For Doctors)</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Specify your Allergies (For Patients)</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Rate Services</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Review</li></a>
+		 </ul>
+		   <ul class="section1">
+	     <a href="" class="footermenu"><li class="subheader"><h2 class="head1">COMPANY INFORMATION</h2></li></a>
+		 <a href="" class="footermenu"><li class="subheader">About Doctors Next To You</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Visitors Speak</li></a>
+		 <a href="" class="footermenu"><li class="subheader">FAQs</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Terms & Conditions</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Privacy Policy</li></a>
+		 </ul>
+
+	 
+	 
+		 
+	
+	 
+	 </div>
+<style>	 
+	 
+.doctor { color: white;
+           margin-left: 2%;
+		   float: left;
+
+}
+.copyright { color: white;
+              margin-top: 12%;
+			  margin-left: -19%;
+			  float: left;
+}
+.section1 { float: left;
+             margin-left: 15%;
+			 margin-top: 0%;
+ }
+.footermenu { text-decoration: none;
+              color: white;
+			  font-family: sans-serif;
+			  font-size: 100%;
+			  margin-top: 1%;
+	         
+} 
+.subheader { text-decoration: none;
+              margin-top: 6%;
+			  list-style: none;
+			  position: inherit;
+			  margin-top: 3%;
+	        
+}
+.footermenu:hover { color: #08A1B6;
+                    
+	                 
+} 
+.contact {   float: right;
+             color: white;
+			 margin-right: 7%;
+			 margin-top: 4%;
+  }  
+.follow { float: right;
+          color: white;
+           margin-top: 4.5%;
+		   position: relative;
+		 
+            		   
+ }
+.linkimg { width: 4%;
+           margin-left: 2%;
+ } 
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor:;
+}
+#myBtn { position: fixed;
+         background-color: #08A1B6;
+		 border-radius: 9px;
+		 color: white;
+		 font-family: sans-serif;
+		 font-size: 78%;
+		 letter-spacing: .1px;
+		 padding: .3%;
+}		 
+</style>		 
+<div id="symptoms">
+<h2 class="select">Select symptoms</h2>
+<form action="#">
+  <p><input type="checkbox" id="test1" /><label for="test1"><span class="ui"></span>Fever</label></p>
+  <p><input type="checkbox" id="test2" /><label for="test2"><span class="ui"></span>Cough</label></p>
+  <p><input type="checkbox" id="test3" /><label for="test3"><span class="ui"></span>Bodypain</label></p>
+  <p><input type="checkbox" id="test4" /><label for="test4"><span class="ui"></span>Headache</label></p>
+  <p><input type="checkbox" id="test5" /><label for="test5"><span class="ui"></span>Fatigue</label></p>
+  <p><input type="checkbox" id="test6" /><label for="test6"><span class="ui"></span>Vomiting</label></p>
+  <p><input type="checkbox" id="test7" /><label for="test7"><span class="ui"></span>Sweating</label></p>
+  <p><input type="checkbox" id="test8" /><label for="test8"><span class="ui"></span>Chills</label></p>
+  <p><input type="checkbox" id="test9" /><label for="test9"><span class="ui"></span>Nausea</label></p>
+  <p><input type="checkbox" id="test10" /><label for="test10"><span class="ui"></span>Pallor</label></p>
+  <p><input type="checkbox" id="test11" /><label for="test11"><span class="ui"></span>Rashes</label></p>
+  <p><input type="checkbox" id="test12" /><label for="test12"><span class="ui"></span>Stomachache</label></p>
+</form>
+ <center> <a href="selectdisease.html" class="disease"><h3 id="submit">Check</h3></a></center>
+<style>
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 75px;
+  cursor: pointer;
+}
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '';
+  position: absolute;
+}
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  left:0; top: -3px;
+  width: 65px; height: 30px;
+  background: #DDDDDD;
+  border-radius: 15px;
+  transition: background-color .2s;
+}
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  width: 20px; height: 20px;
+  transition: all .2s;
+  border-radius: 50%;
+  background: #7F8C9A;
+  top: 2px; left: 5px;
+}
+
+/* on checked */
+[type="checkbox"]:checked + label:before {
+  background:#34495E; 
+}
+[type="checkbox"]:checked + label:after {
+  background: #39D2B4;
+  top: 2px; left: 40px;
+}
+
+[type="checkbox"]:checked + label .ui,
+[type="checkbox"]:not(:checked) + label .ui:before,
+[type="checkbox"]:checked + label .ui:after {
+  position: absolute;
+  left: 6px;
+  width: 65px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  transition: all .2s;
+}
+[type="checkbox"]:not(:checked) + label .ui:before {
+  content: "";
+  left: 32px
+}
+[type="checkbox"]:checked + label .ui:after {
+  content: "";
+  color: #39D2B4;
+}
+[type="checkbox"]:focus + label:before {
+  border: 1px dashed #777;
+  box-sizing: border-box;
+  margin-top: -1px;
+}
+
+/* Useless styles, just for demo styles */
+
+body {
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  color: #7F8C9A;
+  background: #FCFDFD;
+}
+h1, h2 {
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-align: center;
+  color:#aaa;
+}
+h2 {
+  margin: 5px 0 2em;
+  color: #1ABC9C;
+}
+form {
+  width: 80px;
+  margin: 0 auto;
+}
+h2 + P {
+  text-align: center;
+}
+.txtcenter {
+  margin-top: 4em;
+  font-size: .9em;
+  text-align: center;
+  color: #aaa;
+}
+.copy {
+ margin-top: 2em; 
+}
+.copy a {
+ text-decoration: none;
+ color: #1ABC9C;
+}
+</style>
+</div> 
+<div id="select1">
+<h2 class="select">Select symptoms for skin problem</h2>
+ <a href="" ><img src="images/acne.jpg" class="skin"></a>
+  <a href="" ><img src="images/corns.jpg" class="skin"></a>
+   <a href="" ><img src="images/hives.jpg" class="skin"></a>
+    <a href="" ><img src="images/wart.jpg" class="skin"></a>
+    <a href="" ><img src="images/kincancer.jpg" class="skin"></a>
+    <a href="" ><img src="images/lichenanus.jpg" class="skin"></a>
+  <a href="" ><img src="images/Cutis.jpg" class="skin"></a>
+   <a href="" ><img src="images/fungalnailinfection.jpg" class="skin"></a>
+    <a href="" ><img src="images/HemangiomaofSkin.jpg" class="skin"></a>
+    <a href="" ><img src="images/IngrownNails.jpg" class="skin"></a>
+ <a href="" ><img src="images/Lichenanus.jpg" class="skin"></a>
+  <a href="" ><img src="images/lupus.jpg" class="skin"></a>
+   <a href="" ><img src="images/Psoriasis.jpg" class="skin"></a>
+    <a href="" ><img src="images/Seborrheic-Eczema.jpg" class="skin"></a>
+    <a href="" ><img src="images/Vitiligo.jpg" class="skin"></a>
+  <a href="" ><img src="images/wart.jpg" class="skin"></a>
+  <a href="" ><img src="images/acne.jpg" class="skin"></a>
+   <a href="" ><img src="images/acne.jpg" class="skin"></a>
+    <a href="" ><img src="images/acne.jpg" class="skin"></a>
+    <a href="" ><img src="images/acne.jpg" class="skin"></a>	
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+ </body>
+ 
+	
+  </html>		  

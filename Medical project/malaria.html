@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+   <html>
+     <head>
+	   <title>
+	     Doctors Next To You
+	   </title>
+	   	    <link rel="icon" type="image/.png" href="images/icon.png"> 
+	 <link type="text/css" rel="stylesheet" href="malaria.css">
+	 </head>
+	 <header id="head">
+	   <a href="index.html" class="#"><img src="images/icon.png" class="icon"></a>
+	<h1 id="name">Doctors Nxt 2 You</h1>
+	<div id="search">
+	 <input type="text"  placeholder="search..." class="search-box" />
+  
+    </div>
+	</header>
+
+     <nav id="navigator">
+	 
+	 
+	 
+	 
+	 
+	 
+     
+	<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">Consult</a>
+    <a href="#">Book Appointment</a>
+    <a href="#">Rate Doctor</a>
+    <a href="#">Buy Medicines</a>
+	<a href="#">Services</a>
+	<a href="#">About</a>
+  </div>
+
+</div>
+ <ul id="deff">
+	    <a href="" class="link"><li class="log2">Contact</li></a>
+		 <a href="" class="link"><li class="log2">Category</li></a>
+		  <a href="" class="link"><li class="log2">Query</li></a>
+		   <a href="" class="link"><li class="log2">About</li></a>
+		    <a href="index.html" class="link"><li class="log2">Home</li></a>
+	 </ul>	
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">
+    <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>                        
+</span>	
+    
+      	 
+		  
+    </nav>
+<script>
+/* Open when someone clicks on the span element */
+
+function openNav() {
+    document.getElementById("myNav").style.width = "30%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+ 
+   
+ <style>
+.container {
+    display: inline-block;
+    cursor: pointer;
+	
+
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/
+</style>
+  <script>
+   function myFunction(x) {
+    x.classList.toggle("change");
+}
+  </script>	
+ <body>
+ 
+   
+	  
+	 <div id="secondry">
+	  <h1 class="doctor">Doctors Nxt 2 You</h1>
+	  <p class="copyright">&copy; 2016 AbhisheK PrakasH & Hitesh</p>
+	   <ul class="section1">
+	     <a href="" class="footermenu"><li class="subheader"><h2 class="head1">Your Account</h2></li></a>
+		 <a href="" class="footermenu"><li class="subheader">Manage your Profile (For Doctors)</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Specify your Allergies (For Patients)</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Rate Services</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Review</li></a>
+		 </ul>
+		   <ul class="section1">
+	     <a href="" class="footermenu"><li class="subheader"><h2 class="head1">COMPANY INFO</h2></li></a>
+		 <a href="" class="footermenu"><li class="subheader">About Doctors Next To You</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Visitors Speak</li></a>
+		 <a href="" class="footermenu"><li class="subheader">FAQs</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Terms & Conditions</li></a>
+		 <a href="" class="footermenu"><li class="subheader">Privacy Policy</li></a>
+ </ul>
+	
+	 
+		 
+	
+	 
+	 </div>
+<style>	 
+	 
+.doctor { color: white;
+           margin-left: 2%;
+		   float: left;
+
+}
+.copyright { color: white;
+              margin-top: 12%;
+			  margin-left: -19%;
+			  float: left;
+}
+.section1 { float: left;
+             margin-left: 15%;
+			 margin-top: 0%;
+ }
+.footermenu { text-decoration: none;
+              color: white;
+			  font-family: sans-serif;
+			  font-size: 100%;
+			  margin-top: 1%;
+	         
+} 
+.subheader { text-decoration: none;
+              margin-top: 6%;
+			  list-style: none;
+			  position: inherit;
+			  margin-top: 3%;
+	        
+}
+.footermenu:hover { color: #08A1B6;
+                    
+	                 
+} 
+.contact {   float: right;
+             color: white;
+			 margin-right: 7%;
+			 margin-top: 4%;
+  }  
+.follow { float: right;
+          color: white;
+           margin-top: 4.5%;
+		   position: relative;
+		 
+            		   
+ }
+.linkimg { width: 4%;
+           margin-left: 2%;
+ } 
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor:;
+}
+#myBtn { position: fixed;
+         background-color: #08A1B6;
+		 border-radius: 9px;
+		 color: white;
+		 font-family: sans-serif;
+		 font-size: 78%;
+		 letter-spacing: .1px;
+		 padding: .3%;
+}		 
+</style>		 
+	
+
+</div>
+  <script>
+   var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}	
+</script>  
+<div id="selectproblem"> 
+  <h2 class="go">Malaria</h2>
+  <a href="" class="hof"><img src="images/malaria1.jpg" class="doc"></a>
+  <p class="para">Malaria is a mosquito-borne infectious disease affecting humans and others animals caused by parasitic protojonas belonging to the plasmodium type.Malaria causes symptoms that typically include fever fatigue,vomitimg,fever and headache.In severe cases can cause yellow skin, seizures,coma,or death.Symptoms usually . . . . . . .  . . .  <a href="https://en.wikipedia.org/wiki/Malaria" class="more">More</a></p>
+  
+  
+  
+  
+  
+ </div> 
+ <div id="selectproblem1"> 
+  <h2 class="go">Medicine Recomended</h2>
+  <table class="ble">
+  <tr class="first"><th>Medicines</th><th>Rx/OTC</th><th>Preg</th><th>CSA</th><th>Alchohols</th><th>Rating</th></tr>
+   <tr class="first"><th>Coartem</th><th>Rx</th><th>C</th><th>N</th><th>   </th><th>9.0</th></tr>
+    <tr class="first"><th>Artemether</th><th>Rx</th><th>C</th><th>N</th><th>    </th><th>9.0</th></tr>
+	 <tr class="first"><th>Malaroine</th><th>Rx</th><th>C</th><th>N</th><th> </th><th>10.0</th></tr>
+	  <tr class="first"><th>Mefloquine</th><th>Rx</th><th>B</th><th>N</th><th></th><th>1.0</th></tr>
+	   <tr class="first"><th>choloroquine</th><th>Rx</th><th>N</th><th>N</th><th></th><th>10.0</th></tr>
+     <tr class="first"><th>Plaquenil</th><th>Rx</th><th>N</th><th>N</th><th></th><th>7.0</th></tr>
+	  <tr class="first"><th>Doxycycline</th><th>Rx</th><th>D</th><th>N</th><th>X</th><th>7.0</th></tr>
+	   <tr class="first"><th>Doxy 100</th><th>Rx</th><th>D</th><th>N</th><th>X</th><th>10.0</th></tr>
+	    <tr class="first"><th>Primaquine</th><th>Rx</th><th>N</th><th>N</th><th>X</th><th>6.0</th></tr>
+  
+  
+  
+  
+ </table> 
+ </div>
+<div id="selectproblem"> 
+  <h2 class="go">Doctors near you</h2>
+ <a href="https://www.google.co.in/search?q=doctors+in+raipur&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=aujzV5aKErD98wfppY-AAw"> <img src="images/map.png" class="map"></a>
+  
+  <a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=doctors+in+raipur&rflfq=1&rlha=0&rllag=21240146,81630987,1089&tbm=lcl&tbs=lf:1,lf_ui:2,lf_pqs:EAE" class="ssd"><div class="firstdoc">
+  <h3 class="docter">Dr S.S Verma</h3>
+   <p class="address">Address: 2/6, Opp Pandri New Bus Stand, Govind Nagar, Raipur, Chhattisgarh RAIPUR Phone:077124 28899<br>Rating: 3.5/5</p>
+   </div></a>
+   <a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=doctors+in+raipur&rflfq=1&rlha=0&rllag=21240146,81630987,1089&tbm=lcl&tbs=lf:1,lf_ui:2,lf_pqs:EAE" class="ssd"><div class="firstdoc1">
+  <h3 class="docter">Dr Bharat Singhania</h3>
+   <p class="address">Address: 11, Gurukul Complex, Kalibadi, Kalibadi, Janta Colony, Raipur, Chhattisgarh 492001 Phone:082238 83311<br>Rating :4/5</p>
+   </div></a>
+   <a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=doctors+in+raipur&rflfq=1&rlha=0&rllag=21240146,81630987,1089&tbm=lcl&tbs=lf:1,lf_ui:2,lf_pqs:EAE" class="ssd"><div class="firstdoc2">
+  <h3 class="docter">Dr.A.Farishta</h3>
+   <p class="address">Address: Near Holi Cross School, Katara Talab, Raipur, Chhattisgarh 492001 Phone:098271 17177<br>Rating :2/5</p>
+   </div></a>
+   
+   
+   
+  
+  
+  
+  
+ </div>  
+ </body>
+ 
+	
+  </html>	
