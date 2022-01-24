@@ -4,7 +4,7 @@ The project is made to showcase a template of medical website that can be used t
 
 ### Pages - 
 
-![](Medical project/screenshot/first.png)
+![](screenshot/first.png)
 
 ![](Medical project/screenshot/second.png)
 
