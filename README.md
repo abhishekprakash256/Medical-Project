@@ -6,8 +6,8 @@ The project is made to showcase a template of medical website that can be used t
 
 ![](screenshot/first.png)
 
-![](Medical project/screenshot/second.png)
+![](screenshot/second.png)
 
-![](Medical project/screenshot/third.png)
+![](screenshot/third.png)
 
-![](Medical project/screenshot/fourth.png)
+![](screenshot/fourth.png)
