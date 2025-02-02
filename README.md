@@ -4,7 +4,7 @@ The project is made to showcase a template of medical website that can be used t
 
 ### Installation 
 ```
- git clone https://github.com/abhishekprakash256/Medical-Project
+ git clone git@github.com:abhishekprakash256/medical-website-project.git
 
 cd Medical-Project/
 
